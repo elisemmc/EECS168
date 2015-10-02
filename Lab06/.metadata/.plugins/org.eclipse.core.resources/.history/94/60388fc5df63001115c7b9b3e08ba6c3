@@ -1,0 +1,22 @@
+/* -----------------------------------------------------------------------------
+ *
+ * File Name:  Factorial.java
+ * Author: Elise McEllhiney
+ * Assignment:   EECS-168 Lab05
+ * Description:  This program will compute the factorial of a number.
+ * Date: Feb 23, 2012
+ *
+ ---------------------------------------------------------------------------- */
+import java.util.Scanner;
+public class FindMinMax {
+	Scanner input = new Scanner(System.in);
+	System.out.println("Please enter three numbers:");
+	
+	public static void main(String[] args){
+		int M = t;
+		System.out.println();
+	}
+	public static max(int x, int y, int z){
+		
+	}
+}

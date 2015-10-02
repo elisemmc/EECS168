@@ -1,0 +1,29 @@
+/* -----------------------------------------------------------------------------
+ *
+ * File Name:  Factorial.java
+ * Author: Elise McEllhiney
+ * Assignment:   EECS-168 Lab05
+ * Description:  This program will make a pyramid
+ * Date: Feb 23, 2012
+ *
+ ---------------------------------------------------------------------------- */
+public class Pyramid {
+	public static void main(String[] args){;
+		double A = 5;
+		for (int h = 1; h <= 10; h++){
+			System.out.println("");
+			if (h <= 5){
+				for (int w =1; w <= A; w++){
+					System.out.print("*");
+				}
+			}
+			if (h > 5){
+				for (int w = 1; w == A ; w++){
+					System.out.print("*");
+				}
+			}
+			A--;
+		}	
+	}
+
+}

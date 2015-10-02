@@ -1,0 +1,109 @@
+!SESSION 2012-02-23 14:43:18.204 -----------------------------------------------
+eclipse.buildId=R3_7_1
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.python.pydev.core 4 4 2012-02-23 14:44:25.510
+!MESSAGE Server returned HTTP response code: 500 for URL: https://ping.aptana.com/ping.php
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://ping.aptana.com/ping.php
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1403)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.python.pydev.logging.ping.LogPingSender.sendPing(LogPingSender.java:72)
+	at org.python.pydev.logging.ping.SynchedLogPing.send(SynchedLogPing.java:164)
+	at org.python.pydev.logging.ping.AsyncLogPing.consumeAllCommands(AsyncLogPing.java:131)
+	at org.python.pydev.logging.ping.AsyncLogPing.access$0(AsyncLogPing.java:100)
+	at org.python.pydev.logging.ping.AsyncLogPing$1.run(AsyncLogPing.java:47)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:57.563
+!MESSAGE Ignoring template 'constant' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:57.566
+!MESSAGE Ignoring template 'signal' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:57.582
+!MESSAGE Ignoring template 'std_logic' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:57.596
+!MESSAGE Ignoring template 'std_logic_vector' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:57.611
+!MESSAGE Ignoring template 'conv_std_logic_vector' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:57.614
+!MESSAGE Ignoring template 'others' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:57.630
+!MESSAGE Ignoring template 'process(clk)' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:57.644
+!MESSAGE Ignoring template 'process(clk,rst)' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:57.657
+!MESSAGE Ignoring template 'if' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:57.672
+!MESSAGE Ignoring template 'if-else' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:57.677
+!MESSAGE Ignoring template 'for' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:57.680
+!MESSAGE Ignoring template 'assert' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:57.694
+!MESSAGE Ignoring template 'case' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:57.709
+!MESSAGE Ignoring template 'statemachine' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:57.723
+!MESSAGE Ignoring template 'statemachine with reset' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:57.905
+!MESSAGE Ignoring template 'constant' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:57.909
+!MESSAGE Ignoring template 'signal' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:57.914
+!MESSAGE Ignoring template 'std_logic' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:57.929
+!MESSAGE Ignoring template 'std_logic_vector' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:57.943
+!MESSAGE Ignoring template 'conv_std_logic_vector' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:57.958
+!MESSAGE Ignoring template 'others' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:57.972
+!MESSAGE Ignoring template 'process(clk)' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:57.988
+!MESSAGE Ignoring template 'process(clk,rst)' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:58.005
+!MESSAGE Ignoring template 'if' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:58.019
+!MESSAGE Ignoring template 'if-else' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:58.034
+!MESSAGE Ignoring template 'for' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:58.048
+!MESSAGE Ignoring template 'assert' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:58.064
+!MESSAGE Ignoring template 'case' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:58.078
+!MESSAGE Ignoring template 'statemachine' since it has no id.
+
+!ENTRY org.eclipse.ui.editors 4 10001 2012-02-23 14:45:58.093
+!MESSAGE Ignoring template 'statemachine with reset' since it has no id.

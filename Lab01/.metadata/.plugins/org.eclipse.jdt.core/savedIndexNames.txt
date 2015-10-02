@@ -1,0 +1,14 @@
+INDEX VERSION 1.126+/home/112/e/emcellhi/EECS168/Lab01/.metadata/.plugins/org.eclipse.jdt.core
+2921857115.index
+1501317170.index
+680003802.index
+2268464613.index
+3207196468.index
+1346760340.index
+690271857.index
+4283481814.index
+1580850431.index
+1481681510.index
+1189544457.index
+3421611052.index
+1266648557.index

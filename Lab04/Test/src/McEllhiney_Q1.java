@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class McEllhiney_Q1 {
+
+	public static void main(String[] args) {
+		//input
+		Scanner input=new Scanner(System.in);
+		System.out.println("Please input x value:");
+		//variables
+		double x = input.nextDouble();
+		double y;
+		//equations
+		if (x <= 20){
+			if (x > 0){
+				y = 6*x + 5/(3*x-7);
+			}
+			else {
+				y = (5/9)*(2*(x)-1);
+			}
+			//output
+			System.out.println("If x = " + x + ", then y = " + y);
+		}
+		else
+			System.out.println("Out of range.");
+	}
+
+}

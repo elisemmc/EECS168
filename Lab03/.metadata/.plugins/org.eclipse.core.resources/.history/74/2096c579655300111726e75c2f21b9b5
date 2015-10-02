@@ -1,0 +1,36 @@
+/*
+ * File Name:  ServiceCharge.java
+ * Author: Elise McEllhiney
+ * Assignment:   EECS-168 Lab 3
+ * Description:  This program will tell the user if they are a baby, toddler, child, teenager, adult, or senior citizen based on their age.
+ * Date: Feb. 9, 2012
+ *
+ ---------------------------------------------------------------------------- */
+import java.util.Scanner;
+public class ServiceCharge {
+	public static void main(String[] args){
+		//Declare variables
+		double amount = 0.0;
+		double ServiceCharge = 0.0;
+		//Import scanner
+		Scanner input=new Scanner(System.in);
+		//Request input
+		System.out.println("Enter check amount:");
+		//Input age value
+		amount = input.nextDouble();
+		//Determine classification
+		if (amount <= 10.0)
+			ServiceCharge=1;
+		else if (amount <= 100 )
+			ServiceCharge = amount * 0.1;
+		else if (amount <= 1000 )
+			ServiceCharge =  (5+amount* 0.05);
+		else
+			ServiceCharge = (40+amount*.01);		
+		//Print output
+		System.out.println("The service charge is $ %5.2f" , ServiceCharge);
+		
+	}
+	
+
+}

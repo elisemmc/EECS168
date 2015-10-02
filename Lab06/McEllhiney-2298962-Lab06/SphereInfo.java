@@ -1,0 +1,44 @@
+/* -----------------------------------------------------------------------------
+ *
+ * File Name:  SphereInfo.java
+ * Author: Elise McEllhiney
+ * Assignment:   EECS-168 Lab06
+ * Description:  This program will compute the volume and surface area of a sphere of inputed diameter.
+ * Date: Mar 1, 2012
+ *
+ ---------------------------------------------------------------------------- */
+import java.util.Scanner;
+public class SphereInfo {
+
+	public static void main(String[] args){
+		//continue
+		int c = 1;
+		do{
+			Scanner input = new Scanner(System.in);
+			System.out.print("Enter diameter of ball:");
+			double diameter= input.nextDouble();
+			System.out.printf("The volume is %10.2f ", calculateVolume(diameter));
+			System.out.println("");
+			System.out.printf("The min number is %10.2f", calculateSurfaceArea(diameter));
+			System.out.println("");
+			System.out.println("Would you like to continue? (1 for Yes, 0 for No)");
+			c = input.nextInt();
+		} while (c == 1);
+	}
+	
+	//find volume
+	public static double calculateVolume(double diameter){
+		final double PI = 3.141592;
+		double r = diameter/2.0;
+		double V = (4.0/3.0)*PI*(r*r*r);
+		return V;
+	}
+	
+	//find surface area
+	public static double calculateSurfaceArea(double diameter){
+		final double PI = 3.141592;
+		double r = diameter/2.0;
+		double SA = 4.0*PI*(r*r);
+		return SA;
+	}
+}

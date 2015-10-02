@@ -1,0 +1,32 @@
+/*
+ * 	File Name: Pattern
+	Author: Elise McEllhiney 
+    KUID: 2298962
+	Email Address: elisemmc@yahoo.com 
+	Homework Assignment Number: 2
+	Description: Make assigned pattern
+	Last Changed: Mar. 3, 2012
+
+ */
+import java.util.Scanner;
+public class run {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter n:");//prompt
+		int num = input.nextInt();//user entered number
+		int N;//row number
+		int n;//column
+		for ( N=0 ; N <= (2*num) ; N ++){//increasing row number 1 at a time
+			for (n=1; n<= (2*num + 1) ; n++){//increasing column
+				if ((n == (N + 1))||(n == ((2*num + 1)-N))){
+					System.out.print("* ");//print a star
+				}
+				else {
+					System.out.print(". ");//print a dot
+				}
+			}
+			System.out.println(" ");//move to next line
+		}
+	}
+}

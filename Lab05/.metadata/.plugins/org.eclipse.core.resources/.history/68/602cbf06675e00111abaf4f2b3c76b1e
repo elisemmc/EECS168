@@ -1,0 +1,27 @@
+/* -----------------------------------------------------------------------------
+ *
+ * File Name:  Factorial.java
+ * Author: Elise McEllhiney
+ * Assignment:   EECS-168 Lab05
+ * Description:  This program will make a pyramid
+ * Date: Feb 23, 2012
+ *
+ ---------------------------------------------------------------------------- */
+import java.util.Scanner;
+public class Pyramid {
+	public static void main(String[] args){
+		
+		Scanner input = new Scanner(System.in);
+		System.out.println("Please enter a number:");
+		
+		int A = input.nextInt();
+		
+		for (int cnt = 1; cnt <= A; cnt++){
+			System.out.print("*");
+			for (int j =1; j <= A; A--){
+				System.out.println("");
+			}
+		}	
+	}
+
+}

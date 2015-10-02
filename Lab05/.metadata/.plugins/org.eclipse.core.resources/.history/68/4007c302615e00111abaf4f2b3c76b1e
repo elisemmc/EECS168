@@ -1,0 +1,25 @@
+/* -----------------------------------------------------------------------------
+ *
+ * File Name:  Factorial.java
+ * Author: Elise McEllhiney
+ * Assignment:   EECS-168 Lab05
+ * Description:  This program will compute the factorial of a number.
+ * Date: Feb 23, 2012
+ *
+ ---------------------------------------------------------------------------- */
+import java.util.Scanner;
+public class Factorial {
+	public static void main(String[] args){
+		Scanner input = new Scanner(System.in);
+		System.out.println("Please input a integer number:");
+		int A = input.nextInt();
+		int cnt = 1;
+		int factorial=1;
+		while (cnt <= A){
+			cnt *= factorial;
+			cnt ++;
+		}
+		System.out.println("The factorial is:" + factorial);
+	}
+
+}
